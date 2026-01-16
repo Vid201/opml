@@ -8,6 +8,7 @@ const modelPath = process.env.MODEL_PATH
 const modelName = process.env.MODEL_NAME
 const dataPath = process.env.DATA_PATH
 const prompt = process.env.PROMPT
+const regfault = process.env.REGFAULT == undefined ? -1 : parseInt(process.env.REGFAULT)
 
 async function deploy() {
   const MIPS = await ethers.getContractFactory("MIPS")
@@ -124,11 +125,17 @@ function getTrieAtStep(step, nodeID, isLastLayer) {
   if (!fs.existsSync(fn)) {
     // console.log("running mipsevm")
     console.log("running program: ", programPath)
-    const inputPath = basedir+"/data/node_" + nodeID.toString()
+    // const inputPath = basedir+"/data/node_" + nodeID.toString()
     const lastLayer = isLastLayer ?  " --lastLayer" : " "
-    const command = "mlvm/mlvm" + lastLayer + " --target="+step.toString() + " --program="+programPath + " --modelName="+modelName + " --data="+inputPath + " --nodeID="+nodeID.toString() + " --model="+modelPath + " --prompt="+prompt
-    console.log(command)
-    child_process.execSync(command, {stdio: 'inherit'})
+    if (regfault != -1) {
+      const command = "REGFAULT=" + regfault.toString() + " mlvm/mlvm" + lastLayer + " --target="+step.toString() + " --program="+programPath + " --modelName="+modelName + " --data="+dataPath + " --nodeID="+nodeID.toString() + " --model="+modelPath
+      console.log(command)
+      child_process.execSync(command, {stdio: 'inherit'})
+    } else {
+      const command = "mlvm/mlvm" + lastLayer + " --target="+step.toString() + " --program="+programPath + " --modelName="+modelName + " --data="+dataPath + " --nodeID="+nodeID.toString() + " --model="+modelPath
+      console.log(command)
+      child_process.execSync(command, {stdio: 'inherit'})
+    }  
   }
 
   return JSON.parse(fs.readFileSync(fn))

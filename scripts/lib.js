@@ -6,6 +6,7 @@ const basedir = process.env.BASEDIR == undefined ? "/tmp/cannon" : process.env.B
 const programPath = process.env.PROGRAM_PATH 
 const modelPath = process.env.MODEL_PATH
 const dataPath = process.env.DATA_PATH
+const regfault = process.env.REGFAULT == undefined ? -1 : parseInt(process.env.REGFAULT)
 
 async function deploy() {
   const MIPS = await ethers.getContractFactory("MIPS")
@@ -116,7 +117,14 @@ function getTrieAtStep(step) {
   if (!fs.existsSync(fn)) {
     // console.log("running mipsevm")
     console.log("running program: ", programPath)
-    child_process.execSync("mlvm/mlvm --mipsVMCompatible" + " --target="+step.toString() + " --program="+programPath + " --model="+modelPath + " --data="+dataPath, {stdio: 'inherit'})
+    if (regfault != -1) {
+      child_process.execSync(
+        "REGFAULT=" + regfault.toString() + " mlvm/mlvm --mipsVMCompatible" + " --target=" + step.toString() + " --program=" + programPath + " --model=" + modelPath + " --data=" + dataPath, 
+        { stdio: 'inherit' }
+      )
+    } else {
+      child_process.execSync("mlvm/mlvm --mipsVMCompatible" + " --target="+step.toString() + " --program="+programPath + " --model="+modelPath + " --data="+dataPath, {stdio: 'inherit'})
+    }
   }
 
   return JSON.parse(fs.readFileSync(fn))
