@@ -1,0 +1,3156 @@
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract deployment: LayeredChallenge
+  Contract address:    0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Transaction:         0xfda6d2d050f5b7e059653fdbfa574829e3ec38c332965bc839921828241a7f02
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  Value:               0 ETH
+  Gas used:            1421277 of 1421277
+  Block #133:          0x88d4bd0958d870c9cfb334f64d8347a66df598c2a399ae53b7037a69aee464c7
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#initiatePureComputationChallenge
+  Transaction:         0x36315aa2e441aa3f59626d9348f3f4971a2018fee864c419ef498825cc8a6f50
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            185337 of 185337
+  Block #134:          0xe55fe486d90125752f6e6226964f86b5c383b0f54b2835a11b8de9658b07b323
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x84562b74ea49719e28b6d026c74f5306b573f45fac53617f9b3906955b38742e
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #135:          0xa49edbd280131c25b41ab163af6fd645f6b5f91c8d2a23a9513d781657daf34d
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x9dd7855dd35a803207a4ec45685810c42aa288d330c23e7ca6568b3356e67d07
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            77537 of 77537
+  Block #136:          0x1846144a6d8ede17c6af76d040348875b02aa527893153d1d8b2cffa8f82b0b7
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x2176ea606cf67e8c35ca53fc3d3afbd73997d36f243313f64cc3d8882d3fbee0
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #137:          0x0de5000935905b6acce503c9bf270db7c9b7c24051f3808737e5c6c42056d443
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xb50f29e55dc7705a3521d50f306517dee742e7f4de74a5b882f284680fe19724
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60437 of 60437
+  Block #138:          0x82861c828cb21f23ffe30adcbd76a4ef6ec6024dfcd4c3f056aa1ee603c62990
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xfa5c17de9bc2de0cc1c2747d97dd3b943caabc4f727c979fbf541c10486d4776
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #139:          0x822eba2d2ff09559ef17b23f95f2ac7e932e68b973881f098f50cbe1721bea67
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x0c1a343c5e65c5c4ee91f5e4e815664b94deea4af7492ff95c771121d7cd2c5a
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60437 of 60437
+  Block #140:          0x63725dda8be39e3bfe375411e29a13231942beae2341da6aae68ea88a796f3ff
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#toNextLayer
+  Transaction:         0x711d9a93848a0767ea2e261389ee1498e9be2b31b81daa248b6584543821447a
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            167827 of 167827
+  Block #141:          0x266f6a576b72e7e0b52df6674a65d3445eb39db592c3ec01f03a1a3503bb3c7a
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x621550855ea1a5ea9c5bdd8c887f1eebe0ca498d3a1ac25f4ea467aa523981a5
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #142:          0x1ea093877bb340b459772fc693bb48c347192d3a54a54394df9d1c5f428ff691
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x62667fc12de6e2faf2cb8be61ad16967e2e62349afd43c73b76761a5296f2d91
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #143:          0xf726c8c024bd164c5e40a6c8163356148033494207362fee0b0c93d8e90dcfd0
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xcffcc0d223b16ad240aad5802becd89e4dcc549c7fc28d78878b31452afa2002
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #144:          0x07c3dec6877d77ed049bb3375cef0c46a885a88bc4857b77b5405ba739499658
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xe8c5f0d27d55ba5868c9cec7c88ea0f05d9f39846c345528ba37fbcf6d0941a7
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            77537 of 77537
+  Block #145:          0x1e5582770ed9effc8ee94630f3ac18d578a2cf84a39e28a34179c2d542cb7cd0
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x228b9f4fd427dd156f67f91f5bd5d3065a3bcd0186cc603f20000a32adaba319
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #146:          0x98f443e8f6c30ba1dda0c001a3559c46ca2c573855d0e437cdc3d790bc7d50f1
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x298b51921a03ef694273d18a1479eba340185face666240f454516be963e54d3
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #147:          0xc92d4e43056f687a4973e82c7645a35cab5d02ffaf414d371b91c5e0c88c46cd
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x2c05ae8308777d78f90fd2a92c825cf2b435b958eb5bea8419e61212aa407d78
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #148:          0x5f837d101967f5b723d0220873caa3786d895343dc8ea117c219f39e3375b443
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x0dd3d145ae81a5bc694bba4c1650106d1b87ce8aab0dbc8de04807bba942a871
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60437 of 60437
+  Block #149:          0xe4c7131e0a93188c36a4f0a610102b1c6addc28662307b488ab5940c5be33431
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xe31e9cb902e4473c5045a77c644295063d3a82eec8d1fd596a7ef0396caff5dc
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54463 of 54463
+  Block #150:          0x6cf25c40b8dd43f412786d95d6bcad269b3657fdf238d15c257693446541fc45
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xbdb5c7e6ed5fca42af2f2c23c2f75249f31565f6bc992095cf6a8c10d9cd897a
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #151:          0xa8307d80db7f0e5350730a15834b520921e8ccf493482f882cd69b67773b48d9
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xa36f0dd95dacfc3c26551cd19d8d61ca5873be61ee7ca44f17d782f4cf1ce913
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #152:          0x888e0a546f8ba883a2624196c36887ce6699937b24e9b1b01ec3d3d196dbae44
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xb3cbf51a4c38d9ae9583bb6d2cc4a8ac01e9e008c916769b06b777524931c327
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60418 of 60418
+  Block #153:          0xe6c09055609f5ddd8211471832a0e81cc3c46804d635f1999568e974270d93ca
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x2371f941b8ea08a785e7544ed32e650eabd043e53acc25175cd5ad245b3295cf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #154:          0x9d330d1f276d2ab42266866f91be6ab23d3562560f71dd376f8aff8d90b033a3
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x724d28fd3b8516575d5053a8b29b5b077435c8ff4617896fb6b5f7b82fd5625b
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #155:          0xf8f2e02616ab57e7f0f3e3e8de15d541ad9f813f343766d12d4a864a0ebe941a
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x7da99831277eecbc52817d65f2b05606cdded7a4d929c0ab285da72049670053
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #156:          0x71c648ac5932726bee1b211ea2755c1c5e4272c32e8a222460e08c796786d146
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xf1a36e3bf69b1ca9957b087689bdf0a64ee61bc11f60bd34a2b69840d34da1d0
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60437 of 60437
+  Block #157:          0xeaf41e0999495c988fcd4c39334bfebb369d469268dfd9983a20c6a47def95a6
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xf0b746ab5349e4a3996d2876241f99486a692c4d2e5232650523a29a254fec63
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54463 of 54463
+  Block #158:          0x88e2dd5c3079a75942b89aa7868e2c2bbe6396dc2f1a1adcfe6b10dd7f1f303b
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x276d1c227df465a4049c8cca210820a6e88fc210329951dec7bfe1452648d9ba
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60425 of 60425
+  Block #159:          0xc7648b16accbd1d375ee42957b8ee58b1026d07435eca3ad9d73170b2814b936
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xe2bd8e86c086d7df769f3d060984b46268cc281bf260913abd275ba4576d261a
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #160:          0x491420190d5e8a50d16d8fa16fcb3dc895054c1b950d601a48a40b5a7a98bf55
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xe7422b485acc43c6c1efdf4879172b7607e2453c1a8e2273b846788ee7ae4566
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #161:          0x9b0f78c19926cf33ce28db6283234499e86ffc5daa6adf7e279cca0e04310113
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xaa135af35285714e3be6a84e5c5e41bb0eedf767dfa7fed858af0d49c4dd067e
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #162:          0xc9b9e0731e1bf2aba354a9690379ed85d5ce0dace8c1cf22682926203188ad1e
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x9a31d40b2b0add7c842f9f75af2d85ff1622f44c812cf5c30a6c443ed43dcd98
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60437 of 60437
+  Block #163:          0x85ce75c068a3b1ac4a27564db1f46595f8c45627991d130a6fb6f3ac45d73b3e
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x8c571977b38a4790ca0b9ca356ba6365563449a760d77aa65ac6b88a667aafbc
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #164:          0x4b4cc327f4f067031f671e7d313a249a535430fe9c17d28ce0ed626e607cba7a
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xe8f631a6f97a59d38b2474b66acac5e9ef35a414673540fe61739f08fbc606d7
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #165:          0x5c1cd8bfa753d2a951b03d23a158ad11659b93c0e518726d7e38c62df17f0a00
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xfe8608f50c079ad51d4cc51571d526db148ce5d5e1eb826017023d92291559d7
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #166:          0x127f8fcf4a8afe1a997faaa8bc576d328219f961da0e5ffe38f56e21a5484f84
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xa8ddcfd97dc1bb188968a29b2e715966c9557dfb61582f2fe7446399bf97817c
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #167:          0xdbc487a343da8558e93d2ff36729b5819e82f044b5e3c981a00776592a7c36d3
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xdc8f78c2eaf9f3f2718306e5f2ee0dbfbf385c68bdcbcee320c09ce290ae4469
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54463 of 54463
+  Block #168:          0x5b10919f8d509362caf57e93f1fd29545214e978d547c20267d10c2bd6254cbc
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xe9f6e0bc49d813d216e915e52d3ac82670592b196d74ee3385553a41751c0d52
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60425 of 60425
+  Block #169:          0x54bd0963da62cc6a309d92effdce508e683e034a2f3b24ecfea09126583056a5
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x9257b9768955bbfc127b60488be64ca8d46434fea00793aa7c87d8245a534b31
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54463 of 54463
+  Block #170:          0xc3e51b52293582dbfad2b682812f683cb741bb5a4de1f6ab1e4a021df2993cd7
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xe146fbed0c22adf8e4cdfb2583294490127e2617e8c7f752a138ee5a8ffb72a5
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #171:          0x0c2c176fe710a71efc890ceedd763941d4db494fb3bd16904c70e4ff15091b92
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xb0ccd657c327dea7ec5975b2bbf5492bb2f996d3b9ce2813e9fa07ba58316f1e
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #172:          0xd9cf2831fc0e6ba6060599696406f6f6a9cd9cf1ae1508c9be2b056045517b3d
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0xf7d5cabca665e4febc075459cd450d78b14a588540eda35a124648462415ef5c
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60418 of 60418
+  Block #173:          0x781eea31ec02808f204ed1dd7783663115c84704b50e7537fb058eb4c434b535
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0xc2f14466824103b105f554e9e97228a957ac818a92ca646a0b7fe81f4f63fe3b
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #174:          0x9d9d4637005844fa3b05d41bf2b405bfbf07b1979b29282f1ef129c69790d69d
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x534e9166f26c9a9a3e8c69f518909967af3d748955003a25c78b4da87d615df4
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #175:          0xa10b6cc31fc60c667aad1ead5b85ee58486610404f80982ab4c9b456b80f4dfc
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#proposeState
+  Transaction:         0x94975b94c231bcd3455724b8dcb767c5048698e530213e3436423ca4c8904578
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            54475 of 54475
+  Block #176:          0x0e3b41c5e9a9eff8f6f88ea72088b7a87095e8d4c8e9f69b9f52cdd436557e8f
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getProposedState
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#respondState
+  Transaction:         0x32d205e6c37e9159e34ee8ece40052cd9a4f4c5a8de6007affb34d2ae7c4ecd1
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            60430 of 60430
+  Block #177:          0x21f76d8c50208b7e8bb4d61a58516cf17d1ba8a7e0d1be505fd81a88b6e21970
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getCurrentLayer
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '14768dce556bc083a986e2bfb00024f39e52bd40ac2616b3c05d88958a51a92e'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string 'c615d20e7f8886eae4460df643eb15ad808a5f5f5cbfed00b584f6cc7048b332'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '18872b2468d90101ba5224a3648b521bf63b6da21df3a4ce16374e0cbeecfaca'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '8a715fa173417aaf94d89320e1384b0a9c044f7c80ae53e431c3acd3a9a19f6d'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string 'a108d6590b102556158b2e99db21903d72c6e7dbf1944a6b3d2cad03013611a7'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '4909043e746054059094e062dffc18e97b7401f635d9c6a9e730e18441d911d5'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '47c05302059f6e1ab9379123048710482e3710e1a4e0c6c61d96990ac3ff3854'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string 'd957a408ad49bf914f45293b0281b7157070cd44ed943271ba7b121b3ae03c8b'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string 'f2b17f4be88847873e7eb58cb7a7fbd539fa83aaa6159b1f41f46dc31f8668d3'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '28f97e25ff670ee9cf3dc35dc6a8a0a99e77b395dbe03a5be0cd5c1bac94152c'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '4ce16d60d12b46573e619313db82df705152fd52769d7a0ad7c3cba268ffbdfc'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string '180d9b98918841e12b3de5b585c40515ef4febc1c5de7fa899fe06d4aa5552b7'
+
+[32meth_chainId[0m
+[31meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+  Error: reverted with reason string 'wrong asserted state for challenger'
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0xb480574e6adaa9fcf2500dda5ec7cd8f6e624eb73af8d5b5d477cefc5a758ce8
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            135047 of 135047
+  Block #178:          0x381affd5a2229657c6cae7e5c194cb0f66db8a104a8339d86b85f8b023ba0592
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0xd00024081146728bc746f8a8d927aba14e2ba992c1a8478acd87f9e9cf21aa48
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            89503 of 89503
+  Block #179:          0x1982624a28f37353f4c75eadd5e64b962ea85a4cb4fa423592e9c3b8d54839b7
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0x22b1f78f632a2d91c905770746796ee6af7fd897722ab7898b87de89ca78d790
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            135071 of 135071
+  Block #180:          0x5fb1755e6281ada79bfe5d952070426e2ad0ec66b58f6a88646320bd6e82e367
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0x747e284a2d145aa292a645a303b472a3d8d9442e815068a3e0b18f71df17473a
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            89467 of 89467
+  Block #181:          0x771afa015f78a865f739373f64461dd06f63e567650a2b2ab9f124412b731034
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0xc2e0359ea8a13eca856864fda6a8d5a575e6efaffeeb04d230952832ff42909e
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            157765 of 157765
+  Block #182:          0x6703f60e15c393bb9715c35f70a20c83f5af07df1973f25e6b6e94f5ea6a9e2c
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0x3837f9212330ba4ed9a3bb5753590aae0b7123d68b12f212c90777956ae182ce
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            89491 of 89491
+  Block #183:          0xf3a3c39f36414f0558bf25b3c3cf3f678730fca4fae6d5c4320598f3cd7e20cd
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0xf16ecf4bbd3e98116dc5457dcf43a323b0e1262a51c793b4230f489168ce1ea4
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            225835 of 225835
+  Block #184:          0x0fc64dc34e38aceeee8d6238799d409f697aa45a1e16d8e055d4bef52f656c40
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0x029fb2696e34eb1527c47e416b1bfdf637b7466b6e4e02c728d9149e5fbc201f
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            362011 of 362011
+  Block #185:          0xb219f139d43060fed98aed66fae8bf72727c7fd14cbe3d68327465421b32260a
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0x76d98df168bf27831624cd0e888ad9efd85bc48b8fe51e1e80a2b1dd63766365
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            430117 of 430117
+  Block #186:          0x57d46362a44cdea5730bcb3b9b96e441bd787d1b2e5700bf11dbe3d31c76e3fb
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0xe3d878499e2ca591533b6bab2c89de9ddcaff520cb943e9818e69763f92803db
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            430117 of 430117
+  Block #187:          0x4aea49e8a50a91d61687b211732268ddccde5adbe9ce8c1fe3a9b055c2ac8b44
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0xef61c1f03c1d872364eebf09951258a0f8a4dfc6faac1818e26d597e7d31b743
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            112329 of 112329
+  Block #188:          0x7fb0887c6c9ba1410073717b473028d65cea06f5c55e0dc2f72caf7b81a5ba65
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       MIPSMemory#AddTrieNode
+  Transaction:         0x3350638b3540f544e2177d9da310c3f8c111e63d105d213efcc41f7409f83a10
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x950973ff0e239740b4570bea36e92d61a4642799
+  Value:               0 ETH
+  Gas used:            134459 of 134459
+  Block #189:          0xdd2c371acd8f120cd3daf8492a56ae0029bca1de996f45b80d65f2500f4155ca
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[31meth_estimateGas[0m
+  Contract call:       LayeredChallenge#confirmStateTransition
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+
+  Error: reverted with reason string 'wrong asserted state for challenger'
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_accounts (2)[0m
+[32meth_accounts (3)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getStepNumber
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#getNodeID
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#isSearching
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_chainId[0m
+[32meth_accounts[0m
+[32meth_call[0m
+  Contract call:       LayeredChallenge#callWithTrieNodes
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_estimateGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       LayeredChallenge#denyStateTransition
+  Transaction:         0xae85410e0be94e758b5ae303a6534660d2c3d8928ad4da7dd7ba2c64b9fc9ad2
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x40918ba7f132e0acba2ce4de4c4baf9bd2d7d849
+  Value:               0 ETH
+  Gas used:            2051765 of 2083823
+  Block #190:          0x771a2a7d1577ce71da1788ce92c45e80c7344d41cb9b6e6ad1de7e7cbb61baa4
+
+[32meth_chainId[0m
+[32meth_getTransactionByHash[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m

@@ -1,0 +1,1671 @@
+
+----------------------------------------
+GENERATING INITIAL MEMORY STATE CHECKPOINT
+----------------------------------------
+
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+writing /tmp/cannon/golden.json len 5979066 with root 0x78ce0f6a43bd786bca2bc1ccbb48080ecb898c5e68bfd85dee61ddd8e362520e
+Writing golden snapshot and exiting early without execution
+
+----------------------------------------
+DEPLOYING CONTRACTS
+----------------------------------------
+
+goldenRoot is 0x78ce0f6a43bd786bca2bc1ccbb48080ecb898c5e68bfd85dee61ddd8e362520e
+deployed {
+  Challenge: '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512',
+  MIPS: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+  MIPSMemory: '0xa16E02E87b7454126E5E10d957A927A7F5B5d2be'
+}
+
+----------------------------------------
+COMPUTING FAKE MIPS FINAL MEMORY CHECKPOINT
+----------------------------------------
+
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+reach the final state, total step: 386065, target: -1
+writing /tmp/cannon_fault/checkpoint_386065.json len 6081322 with root 0x2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+lastStep:  386065
+writing /tmp/cannon_fault/checkpoint_final.json len 6081322 with root 0x2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+PC: 5ead0000
+
+----------------------------------------
+STARTING CHALLENGE
+----------------------------------------
+
+0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 0x5FbDB2315678afecb367f032d93F642f64180aa3 0xa16E02E87b7454126E5E10d957A927A7F5B5d2be
+basedir:  /tmp/cannon_fault
+requested node 2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+requested node b260b3b8a20b4bb824dd5c5bac9d76b3991de12de1f4f168f51ec559b01853aa
+requested node 476c8066275415cef2624ac1a1f1c6fd518ac1da1a9d370444e782ebb2841458
+requested node 3da91779b428565a1c6157e87bde41b635323378d1fb3b339d3f64b4d348d5b8
+requested node 19d4885ea786e911c541e16e940094fde843a0d20fe252fa93c7db2d94c01a69
+cdat:  0x85ec30c02f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99000000000000000000000000000000000000000000000000000000000005e411
+new challenge with id 0
+
+----------------------------------------
+BINARY SEARCH
+----------------------------------------
+
+
+--- STEP 1 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 193032
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+writing /tmp/cannon_fault/checkpoint_193032.json len 6030586 with root 0xcd75947132faeecd498f3c97aa929722fd9ab5744ff7f4f33f4fbd69f383b612
+new root 0xcd75947132faeecd498f3c97aa929722fd9ab5744ff7f4f33f4fbd69f383b612
+done 9
+challengeId:  0
+isChallenger:  false
+searching step 193032
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+writing /tmp/cannon/checkpoint_193032.json len 6030586 with root 0xcd75947132faeecd498f3c97aa929722fd9ab5744ff7f4f33f4fbd69f383b612
+new root 0xcd75947132faeecd498f3c97aa929722fd9ab5744ff7f4f33f4fbd69f383b612
+done 10
+
+--- STEP 2 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 289548
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+writing /tmp/cannon_fault/checkpoint_289548.json len 6065162 with root 0x37e12c41878f1a7c9bc12713c8f62646fc84dbbe34181be275b0d9c84b688a94
+new root 0x37e12c41878f1a7c9bc12713c8f62646fc84dbbe34181be275b0d9c84b688a94
+done 11
+challengeId:  0
+isChallenger:  false
+searching step 289548
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+writing /tmp/cannon/checkpoint_289548.json len 6065162 with root 0x37e12c41878f1a7c9bc12713c8f62646fc84dbbe34181be275b0d9c84b688a94
+new root 0x37e12c41878f1a7c9bc12713c8f62646fc84dbbe34181be275b0d9c84b688a94
+done 12
+
+--- STEP 3 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 337806
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+writing /tmp/cannon_fault/checkpoint_337806.json len 6079154 with root 0x3ec7e97323e9f442c40aefa9e55e96b7b9ccfeae960e5d2f5d7b52c2d0dd9e89
+new root 0x3ec7e97323e9f442c40aefa9e55e96b7b9ccfeae960e5d2f5d7b52c2d0dd9e89
+done 13
+challengeId:  0
+isChallenger:  false
+searching step 337806
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+writing /tmp/cannon/checkpoint_337806.json len 6079154 with root 0x3ec7e97323e9f442c40aefa9e55e96b7b9ccfeae960e5d2f5d7b52c2d0dd9e89
+new root 0x3ec7e97323e9f442c40aefa9e55e96b7b9ccfeae960e5d2f5d7b52c2d0dd9e89
+done 14
+
+--- STEP 4 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 361935
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv(writing /tmp/cannon_fault/checkpoint_361935.json len 6081094 with root 0x73015a6adc2ef20ba9c751414169a73635f3e86203d054e49f95a619a75839a8
+new root 0x73015a6adc2ef20ba9c751414169a73635f3e86203d054e49f95a619a75839a8
+done 15
+challengeId:  0
+isChallenger:  false
+searching step 361935
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv(writing /tmp/cannon/checkpoint_361935.json len 6081094 with root 0x73015a6adc2ef20ba9c751414169a73635f3e86203d054e49f95a619a75839a8
+new root 0x73015a6adc2ef20ba9c751414169a73635f3e86203d054e49f95a619a75839a8
+done 16
+
+--- STEP 5 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 374000
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraphwriting /tmp/cannon_fault/checkpoint_374000.json len 6081094 with root 0x0b7c8618998b51132eddec270e688bc320c8164f267330ba761bdb5efab838ab
+new root 0x0b7c8618998b51132eddec270e688bc320c8164f267330ba761bdb5efab838ab
+done 17
+challengeId:  0
+isChallenger:  false
+searching step 374000
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraphwriting /tmp/cannon/checkpoint_374000.json len 6081094 with root 0x0b7c8618998b51132eddec270e688bc320c8164f267330ba761bdb5efab838ab
+new root 0x0b7c8618998b51132eddec270e688bc320c8164f267330ba761bdb5efab838ab
+done 18
+
+--- STEP 6 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 380032
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:writing /tmp/cannon_fault/checkpoint_380032.json len 6081322 with root 0x6758af996148bf86cd5b893cfb64cf5e81d5fc3c1d1e02f8ddb716d069c64d35
+new root 0x6758af996148bf86cd5b893cfb64cf5e81d5fc3c1d1e02f8ddb716d069c64d35
+done 19
+challengeId:  0
+isChallenger:  false
+searching step 380032
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:writing /tmp/cannon/checkpoint_380032.json len 6081322 with root 0x6758af996148bf86cd5b893cfb64cf5e81d5fc3c1d1e02f8ddb716d069c64d35
+new root 0x6758af996148bf86cd5b893cfb64cf5e81d5fc3c1d1e02f8ddb716d069c64d35
+done 20
+
+--- STEP 7 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 383048
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_383048.json len 6081322 with root 0x0f7b3e5317e139f786ac3ec900e3960091a9d1b1f5839433f9839afd65f985d6
+new root 0x0f7b3e5317e139f786ac3ec900e3960091a9d1b1f5839433f9839afd65f985d6
+done 21
+challengeId:  0
+isChallenger:  false
+searching step 383048
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_383048.json len 6081322 with root 0x0f7b3e5317e139f786ac3ec900e3960091a9d1b1f5839433f9839afd65f985d6
+new root 0x0f7b3e5317e139f786ac3ec900e3960091a9d1b1f5839433f9839afd65f985d6
+done 22
+
+--- STEP 8 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 384556
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_384556.json len 6081322 with root 0x138d4368d9068f9a1cb3636675c8cc1d2eb21e115d0b9f66571a482790c1a8a9
+new root 0x138d4368d9068f9a1cb3636675c8cc1d2eb21e115d0b9f66571a482790c1a8a9
+done 23
+challengeId:  0
+isChallenger:  false
+searching step 384556
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_384556.json len 6081322 with root 0x138d4368d9068f9a1cb3636675c8cc1d2eb21e115d0b9f66571a482790c1a8a9
+new root 0x138d4368d9068f9a1cb3636675c8cc1d2eb21e115d0b9f66571a482790c1a8a9
+done 24
+
+--- STEP 9 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 385310
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_385310.json len 6081322 with root 0x0d6ce741f8f41a3c7234b72941fc8c6d5c591c3814dca1105d842ac2d46c825f
+new root 0x0d6ce741f8f41a3c7234b72941fc8c6d5c591c3814dca1105d842ac2d46c825f
+done 25
+challengeId:  0
+isChallenger:  false
+searching step 385310
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_385310.json len 6081322 with root 0x0d6ce741f8f41a3c7234b72941fc8c6d5c591c3814dca1105d842ac2d46c825f
+new root 0x0d6ce741f8f41a3c7234b72941fc8c6d5c591c3814dca1105d842ac2d46c825f
+done 26
+
+--- STEP 10 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 385687
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_385687.json len 6081322 with root 0x0ae6149cbc17cfe8f5379cc5c50d25c4cbc3812048a63991794618cbf44d71e6
+new root 0x0ae6149cbc17cfe8f5379cc5c50d25c4cbc3812048a63991794618cbf44d71e6
+done 27
+challengeId:  0
+isChallenger:  false
+searching step 385687
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_385687.json len 6081322 with root 0x0ae6149cbc17cfe8f5379cc5c50d25c4cbc3812048a63991794618cbf44d71e6
+new root 0x0ae6149cbc17cfe8f5379cc5c50d25c4cbc3812048a63991794618cbf44d71e6
+done 28
+
+--- STEP 11 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 385876
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_385876.json len 6081322 with root 0x6661ad4858fc737e2e3634dc1485050ab244c57ad62a10bbb66a1f0fa8f6a3cf
+new root 0x6661ad4858fc737e2e3634dc1485050ab244c57ad62a10bbb66a1f0fa8f6a3cf
+done 29
+challengeId:  0
+isChallenger:  false
+searching step 385876
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_385876.json len 6081322 with root 0x6661ad4858fc737e2e3634dc1485050ab244c57ad62a10bbb66a1f0fa8f6a3cf
+new root 0x6661ad4858fc737e2e3634dc1485050ab244c57ad62a10bbb66a1f0fa8f6a3cf
+done 30
+
+--- STEP 12 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 385970
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_385970.json len 6081322 with root 0x3a0a5f13dd150fc1d35c603923f1c9f269df976a16c9d6762c1c6796ab0f29df
+new root 0x3a0a5f13dd150fc1d35c603923f1c9f269df976a16c9d6762c1c6796ab0f29df
+done 31
+challengeId:  0
+isChallenger:  false
+searching step 385970
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_385970.json len 6081322 with root 0x3a0a5f13dd150fc1d35c603923f1c9f269df976a16c9d6762c1c6796ab0f29df
+new root 0x3a0a5f13dd150fc1d35c603923f1c9f269df976a16c9d6762c1c6796ab0f29df
+done 32
+
+--- STEP 13 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386017
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_386017.json len 6081322 with root 0xa9f34a1ac6fa82810e4ee2444ab8be36e7c93a9d79780699a5c6a01d746dd47e
+new root 0xa9f34a1ac6fa82810e4ee2444ab8be36e7c93a9d79780699a5c6a01d746dd47e
+done 33
+challengeId:  0
+isChallenger:  false
+searching step 386017
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_386017.json len 6081322 with root 0xa9f34a1ac6fa82810e4ee2444ab8be36e7c93a9d79780699a5c6a01d746dd47e
+new root 0xa9f34a1ac6fa82810e4ee2444ab8be36e7c93a9d79780699a5c6a01d746dd47e
+done 34
+
+--- STEP 14 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386041
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_386041.json len 6081322 with root 0x2458c1cabf6047caf3ed4cbfc3c7cb5dd6b74d1ccc3b4019bb96c107e0484fb9
+new root 0x2458c1cabf6047caf3ed4cbfc3c7cb5dd6b74d1ccc3b4019bb96c107e0484fb9
+done 35
+challengeId:  0
+isChallenger:  false
+searching step 386041
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_386041.json len 6081322 with root 0x2458c1cabf6047caf3ed4cbfc3c7cb5dd6b74d1ccc3b4019bb96c107e0484fb9
+new root 0x2458c1cabf6047caf3ed4cbfc3c7cb5dd6b74d1ccc3b4019bb96c107e0484fb9
+done 36
+
+--- STEP 15 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386053
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_386053.json len 6081322 with root 0xe1fabed9962b43c238f732789fdd652392e583e789e61927dc64ada499b426c2
+new root 0xe1fabed9962b43c238f732789fdd652392e583e789e61927dc64ada499b426c2
+done 37
+challengeId:  0
+isChallenger:  false
+searching step 386053
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_386053.json len 6081322 with root 0xe1fabed9962b43c238f732789fdd652392e583e789e61927dc64ada499b426c2
+new root 0xe1fabed9962b43c238f732789fdd652392e583e789e61927dc64ada499b426c2
+done 38
+
+--- STEP 16 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386059
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_386059.json len 6081322 with root 0x2fedf4c4eeaf34ba695452b6d0b38e4f434bf989e61eb43e52882318987fea59
+new root 0x2fedf4c4eeaf34ba695452b6d0b38e4f434bf989e61eb43e52882318987fea59
+done 39
+challengeId:  0
+isChallenger:  false
+searching step 386059
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_386059.json len 6081322 with root 0x2fedf4c4eeaf34ba695452b6d0b38e4f434bf989e61eb43e52882318987fea59
+new root 0x2fedf4c4eeaf34ba695452b6d0b38e4f434bf989e61eb43e52882318987fea59
+done 40
+
+--- STEP 17 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386062
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_386062.json len 6081322 with root 0xeb998a0353b52409eb495006d69a8f73cf7fec22c5b9b8986a1bc7c83ca11128
+new root 0xeb998a0353b52409eb495006d69a8f73cf7fec22c5b9b8986a1bc7c83ca11128
+done 41
+challengeId:  0
+isChallenger:  false
+searching step 386062
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_386062.json len 6081322 with root 0xeb998a0353b52409eb495006d69a8f73cf7fec22c5b9b8986a1bc7c83ca11128
+new root 0xeb998a0353b52409eb495006d69a8f73cf7fec22c5b9b8986a1bc7c83ca11128
+done 42
+
+--- STEP 18 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386063
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_386063.json len 6081322 with root 0xb30d682eec979e50b245543f6961a470d2c2bb362d208cfb148706a755fd99a9
+new root 0xb30d682eec979e50b245543f6961a470d2c2bb362d208cfb148706a755fd99a9
+done 43
+challengeId:  0
+isChallenger:  false
+searching step 386063
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_386063.json len 6081322 with root 0xb30d682eec979e50b245543f6961a470d2c2bb362d208cfb148706a755fd99a9
+new root 0xb30d682eec979e50b245543f6961a470d2c2bb362d208cfb148706a755fd99a9
+done 44
+
+--- STEP 19 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon_fault/checkpoint_386064.json len 6081322 with root 0x2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+new root 0x2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+done 45
+challengeId:  0
+isChallenger:  false
+searching step 386064
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+writing /tmp/cannon/checkpoint_386064.json len 6081322 with root 0x2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+new root 0x2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+done 46
+
+--- STEP 20 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 21 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 22 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 23 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 24 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 25 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 26 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 27 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 28 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 29 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 30 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 31 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 32 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 33 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 34 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 35 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 36 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 37 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 38 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 39 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 40 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 41 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 42 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 43 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 44 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 45 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 46 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 47 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 48 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 49 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 50 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 51 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 52 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 53 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 54 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 55 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 56 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 57 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 58 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 59 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 60 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 61 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 62 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 63 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 64 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 65 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 66 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 67 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 68 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 69 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 70 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 71 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 72 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 73 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 74 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 75 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 76 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 77 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 78 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 79 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 80 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 81 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 82 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 83 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 84 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 85 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 86 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 87 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 88 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 89 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 90 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 91 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 92 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 93 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 94 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 95 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 96 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 97 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 98 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 99 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+--- STEP 100 / 100 ---
+
+challengeId:  0
+isChallenger:  true
+searching step 386064
+search is done
+challengeId:  0
+isChallenger:  false
+searching step 386064
+search is done
+
+----------------------------------------
+ASSERTING AS DEFENDER (should pass)
+----------------------------------------
+
+searching step 386064
+running program:  ./mlgo/ml_mips/ml_mips.bin
+open undefined: no such file or directory
+open /mlgo/examples/llama/models/llama-7b-fp32.bin: no such file or directory
+Start Read Tensor Graph
+panic: runtime error: slice bounds out of range [:4] with capacity 0
+
+goroutine 1 [running]:
+mlgo/ml.DecodeComputeNodeEnv({0x31000004, 0x0, 0x0}, 0x1, 0x1)
+	/home/vid/Documents/DEAI/opml/mlgo/ml/utils.go:383 +0x378
+main.ReadTensorGraph()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:19 +0xcc
+main.main()
+	/home/vid/Documents/DEAI/opml/mlgo/ml_mips/main.go:48 +0x38
+reach the final state, total step: 386065, target: 386065
+writing /tmp/cannon/checkpoint_386065.json len 6081322 with root 0x2f9d138036bdc2283d2840796e08fa9899a955da04bf1c5ab01d1a95efdd8f99
+[ undefined, 'ChallengerLosesByDefault' ]

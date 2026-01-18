@@ -1,0 +1,1829 @@
+
+----------------------------------------
+GENERATING INITIAL MEMORY STATE CHECKPOINT
+----------------------------------------
+
+Load Model Finish
+data too large
+writing /tmp/cannon/checkpoint/0_golden.json len 5979909 with root 0x7f2a5323c897137a42b346fceafbb9da9df34c6ff19ec43d83590352ab53c63c
+Writing golden snapshot and exiting early without execution
+
+----------------------------------------
+DEPLOYING CONTRACTS
+----------------------------------------
+
+goldenRoot is 0x7f2a5323c897137a42b346fceafbb9da9df34c6ff19ec43d83590352ab53c63c
+deployed {
+  LayeredChallenge: '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512',
+  MIPS: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+  MIPSMemory: '0xa16E02E87b7454126E5E10d957A927A7F5B5d2be'
+}
+
+----------------------------------------
+STARTING CHALLENGE
+----------------------------------------
+
+0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 0x5FbDB2315678afecb367f032d93F642f64180aa3 0xa16E02E87b7454126E5E10d957A927A7F5B5d2be
+basedir:  /tmp/cannon_fault
+cdat:  0xdcec782c7f2a5323c897137a42b346fceafbb9da9df34c6ff19ec43d83590352ab53c63c00000000000000000000000000000000000000000000000000000000000004e60000000000000000000000000000000000000000000000000000000000000002
+new challenge with id 0
+
+----------------------------------------
+BINARY SEARCH
+----------------------------------------
+
+
+--- STEP 1 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  627
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=627 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_627 --nodeID=627 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon_fault/checkpoint/627_golden.json len 6198211 with root 0x9f5076d4ac6295434cf15c73bbc3bda16025e9d30ddc44b95be09ce0876737c0
+Writing golden snapshot and exiting early without execution
+new root 0x9f5076d4ac6295434cf15c73bbc3bda16025e9d30ddc44b95be09ce0876737c0
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 38862,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  627
+current layer:  0
+isProposing true
+new root 0x9f5076d4ac6295434cf15c73bbc3bda16025e9d30ddc44b95be09ce0876737c0
+done 4
+challengeId:  0
+isChallenger:  false
+searching step:  627
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=627 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_627 --nodeID=627 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon/checkpoint/627_golden.json len 6198211 with root 0x9f5076d4ac6295434cf15c73bbc3bda16025e9d30ddc44b95be09ce0876737c0
+Writing golden snapshot and exiting early without execution
+new root 0x9f5076d4ac6295434cf15c73bbc3bda16025e9d30ddc44b95be09ce0876737c0
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 55852,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  627
+current layer:  0
+isProposing false
+new root 0x9f5076d4ac6295434cf15c73bbc3bda16025e9d30ddc44b95be09ce0876737c0
+done 5
+
+--- STEP 2 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  940
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=940 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_940 --nodeID=940 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon_fault/checkpoint/940_golden.json len 5979935 with root 0x41a90207a95626eca155edd858ed379b3926bac2b59e2ce92ebe1a998bc6ef38
+Writing golden snapshot and exiting early without execution
+new root 0x41a90207a95626eca155edd858ed379b3926bac2b59e2ce92ebe1a998bc6ef38
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 41370,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  940
+current layer:  0
+isProposing true
+new root 0x41a90207a95626eca155edd858ed379b3926bac2b59e2ce92ebe1a998bc6ef38
+done 6
+challengeId:  0
+isChallenger:  false
+searching step:  940
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=940 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_940 --nodeID=940 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon/checkpoint/940_golden.json len 5979935 with root 0x41a90207a95626eca155edd858ed379b3926bac2b59e2ce92ebe1a998bc6ef38
+Writing golden snapshot and exiting early without execution
+new root 0x41a90207a95626eca155edd858ed379b3926bac2b59e2ce92ebe1a998bc6ef38
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 36910,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  940
+current layer:  0
+isProposing false
+new root 0x41a90207a95626eca155edd858ed379b3926bac2b59e2ce92ebe1a998bc6ef38
+done 7
+
+--- STEP 3 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1097
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1097 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1097 --nodeID=1097 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon_fault/checkpoint/1097_golden.json len 5979928 with root 0xc0a235b59e43b1ee46efef8040060169b5b8037547ff81c26b9edcd5b0b493ec
+Writing golden snapshot and exiting early without execution
+new root 0xc0a235b59e43b1ee46efef8040060169b5b8037547ff81c26b9edcd5b0b493ec
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 55604,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1097
+current layer:  0
+isProposing true
+new root 0xc0a235b59e43b1ee46efef8040060169b5b8037547ff81c26b9edcd5b0b493ec
+done 8
+challengeId:  0
+isChallenger:  false
+searching step:  1097
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1097 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1097 --nodeID=1097 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon/checkpoint/1097_golden.json len 5979928 with root 0xc0a235b59e43b1ee46efef8040060169b5b8037547ff81c26b9edcd5b0b493ec
+Writing golden snapshot and exiting early without execution
+new root 0xc0a235b59e43b1ee46efef8040060169b5b8037547ff81c26b9edcd5b0b493ec
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 53946,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1097
+current layer:  0
+isProposing false
+new root 0xc0a235b59e43b1ee46efef8040060169b5b8037547ff81c26b9edcd5b0b493ec
+done 9
+
+--- STEP 4 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1175
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1175 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1175 --nodeID=1175 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon_fault/checkpoint/1175_golden.json len 5979928 with root 0x3c2c10625496942dfdaa9a9f7928e3021d8b6eecdeaff588b05a353908de99ac
+Writing golden snapshot and exiting early without execution
+new root 0x3c2c10625496942dfdaa9a9f7928e3021d8b6eecdeaff588b05a353908de99ac
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 59678,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1175
+current layer:  0
+isProposing true
+new root 0x3c2c10625496942dfdaa9a9f7928e3021d8b6eecdeaff588b05a353908de99ac
+done 10
+challengeId:  0
+isChallenger:  false
+searching step:  1175
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1175 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1175 --nodeID=1175 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon/checkpoint/1175_golden.json len 5979928 with root 0x3c2c10625496942dfdaa9a9f7928e3021d8b6eecdeaff588b05a353908de99ac
+Writing golden snapshot and exiting early without execution
+new root 0x3c2c10625496942dfdaa9a9f7928e3021d8b6eecdeaff588b05a353908de99ac
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 35762,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1175
+current layer:  0
+isProposing false
+new root 0x3c2c10625496942dfdaa9a9f7928e3021d8b6eecdeaff588b05a353908de99ac
+done 11
+
+--- STEP 5 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1214
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1214 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1214 --nodeID=1214 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon_fault/checkpoint/1214_golden.json len 5979928 with root 0x6aca7f8051da042d8a2e737787b53628ba21d7ffa4feba389d8cc2f25095bf38
+Writing golden snapshot and exiting early without execution
+new root 0x6aca7f8051da042d8a2e737787b53628ba21d7ffa4feba389d8cc2f25095bf38
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 60996,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1214
+current layer:  0
+isProposing true
+new root 0x6aca7f8051da042d8a2e737787b53628ba21d7ffa4feba389d8cc2f25095bf38
+done 12
+challengeId:  0
+isChallenger:  false
+searching step:  1214
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1214 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1214 --nodeID=1214 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon/checkpoint/1214_golden.json len 5979928 with root 0x6aca7f8051da042d8a2e737787b53628ba21d7ffa4feba389d8cc2f25095bf38
+Writing golden snapshot and exiting early without execution
+new root 0x6aca7f8051da042d8a2e737787b53628ba21d7ffa4feba389d8cc2f25095bf38
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 37620,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1214
+current layer:  0
+isProposing false
+new root 0x6aca7f8051da042d8a2e737787b53628ba21d7ffa4feba389d8cc2f25095bf38
+done 13
+
+--- STEP 6 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1234
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1234 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1234 --nodeID=1234 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon_fault/checkpoint/1234_golden.json len 5984840 with root 0xd643727849c152513a99ccf25ec15a69b509dc9f110eb626b1a08299b562fefc
+Writing golden snapshot and exiting early without execution
+new root 0xd643727849c152513a99ccf25ec15a69b509dc9f110eb626b1a08299b562fefc
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 50386,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1234
+current layer:  0
+isProposing true
+new root 0xd643727849c152513a99ccf25ec15a69b509dc9f110eb626b1a08299b562fefc
+done 14
+challengeId:  0
+isChallenger:  false
+searching step:  1234
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1234 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1234 --nodeID=1234 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon/checkpoint/1234_golden.json len 5984840 with root 0xd643727849c152513a99ccf25ec15a69b509dc9f110eb626b1a08299b562fefc
+Writing golden snapshot and exiting early without execution
+new root 0xd643727849c152513a99ccf25ec15a69b509dc9f110eb626b1a08299b562fefc
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 39000,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1234
+current layer:  0
+isProposing false
+new root 0xd643727849c152513a99ccf25ec15a69b509dc9f110eb626b1a08299b562fefc
+done 15
+
+--- STEP 7 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1244
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1244 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1244 --nodeID=1244 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon_fault/checkpoint/1244_golden.json len 6366452 with root 0x4a477e1b064f5c5112251d951c037a29eda13e30b2ae4c5fd06aee290803d4b4
+Writing golden snapshot and exiting early without execution
+new root 0x4a477e1b064f5c5112251d951c037a29eda13e30b2ae4c5fd06aee290803d4b4
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 51394,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1244
+current layer:  0
+isProposing true
+new root 0x4a477e1b064f5c5112251d951c037a29eda13e30b2ae4c5fd06aee290803d4b4
+done 16
+challengeId:  0
+isChallenger:  false
+searching step:  1244
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1244 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1244 --nodeID=1244 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon/checkpoint/1244_golden.json len 6366452 with root 0x4a477e1b064f5c5112251d951c037a29eda13e30b2ae4c5fd06aee290803d4b4
+Writing golden snapshot and exiting early without execution
+new root 0x4a477e1b064f5c5112251d951c037a29eda13e30b2ae4c5fd06aee290803d4b4
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 35658,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1244
+current layer:  0
+isProposing false
+new root 0x4a477e1b064f5c5112251d951c037a29eda13e30b2ae4c5fd06aee290803d4b4
+done 17
+
+--- STEP 8 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1249
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1249 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1249 --nodeID=1249 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon_fault/checkpoint/1249_golden.json len 6124364 with root 0x5bf6d4ea1e58b5f1572afa413dd2749e548d29d317e32b92c52d8520a5e21425
+Writing golden snapshot and exiting early without execution
+new root 0x5bf6d4ea1e58b5f1572afa413dd2749e548d29d317e32b92c52d8520a5e21425
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 37722,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1249
+current layer:  0
+isProposing true
+new root 0x5bf6d4ea1e58b5f1572afa413dd2749e548d29d317e32b92c52d8520a5e21425
+done 18
+challengeId:  0
+isChallenger:  false
+searching step:  1249
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1249 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1249 --nodeID=1249 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon/checkpoint/1249_golden.json len 6124364 with root 0x5bf6d4ea1e58b5f1572afa413dd2749e548d29d317e32b92c52d8520a5e21425
+Writing golden snapshot and exiting early without execution
+new root 0x5bf6d4ea1e58b5f1572afa413dd2749e548d29d317e32b92c52d8520a5e21425
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 52054,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1249
+current layer:  0
+isProposing false
+new root 0x5bf6d4ea1e58b5f1572afa413dd2749e548d29d317e32b92c52d8520a5e21425
+done 19
+
+--- STEP 9 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1251
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1251 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1251 --nodeID=1251 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon_fault/checkpoint/1251_golden.json len 6198212 with root 0xc95600cf79c47eb1c1bf4355fae8d856067a6aa478b8b4271d368ff0ae372848
+Writing golden snapshot and exiting early without execution
+new root 0xc95600cf79c47eb1c1bf4355fae8d856067a6aa478b8b4271d368ff0ae372848
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 38102,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1251
+current layer:  0
+isProposing true
+new root 0xc95600cf79c47eb1c1bf4355fae8d856067a6aa478b8b4271d368ff0ae372848
+done 20
+challengeId:  0
+isChallenger:  false
+searching step:  1251
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1251 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1251 --nodeID=1251 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon/checkpoint/1251_golden.json len 6198212 with root 0xc95600cf79c47eb1c1bf4355fae8d856067a6aa478b8b4271d368ff0ae372848
+Writing golden snapshot and exiting early without execution
+new root 0xc95600cf79c47eb1c1bf4355fae8d856067a6aa478b8b4271d368ff0ae372848
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 57732,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1251
+current layer:  0
+isProposing false
+new root 0xc95600cf79c47eb1c1bf4355fae8d856067a6aa478b8b4271d368ff0ae372848
+done 21
+
+--- STEP 10 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1252
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1252 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1252 --nodeID=1252 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon_fault/checkpoint/1252_golden.json len 5979936 with root 0xfcd668f21286e97f1fc611ddc8c97d9f4934c6bf0dd302c3a21cd1e0333af65d
+Writing golden snapshot and exiting early without execution
+new root 0xfcd668f21286e97f1fc611ddc8c97d9f4934c6bf0dd302c3a21cd1e0333af65d
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 52612,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1252
+current layer:  0
+isProposing true
+new root 0xfcd668f21286e97f1fc611ddc8c97d9f4934c6bf0dd302c3a21cd1e0333af65d
+done 22
+challengeId:  0
+isChallenger:  false
+searching step:  1252
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1252 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1252 --nodeID=1252 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+data too large
+writing /tmp/cannon/checkpoint/1252_golden.json len 5979936 with root 0xfcd668f21286e97f1fc611ddc8c97d9f4934c6bf0dd302c3a21cd1e0333af65d
+Writing golden snapshot and exiting early without execution
+new root 0xfcd668f21286e97f1fc611ddc8c97d9f4934c6bf0dd302c3a21cd1e0333af65d
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 53828,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1252
+current layer:  0
+isProposing false
+new root 0xfcd668f21286e97f1fc611ddc8c97d9f4934c6bf0dd302c3a21cd1e0333af65d
+done 23
+
+--- STEP 11 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1253
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1253 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon_fault/checkpoint/1253_golden.json len 7102428 with root 0x155675792eb4d0d004ce1426b65453bb550d70b5a41f9808162764bda1c6de9b
+Writing golden snapshot and exiting early without execution
+new root 0x155675792eb4d0d004ce1426b65453bb550d70b5a41f9808162764bda1c6de9b
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 57490,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 2050,
+    bytesRead: 5936
+  }
+}
+challengeId:  0
+isChallenger:  true
+searching step:  1253
+current layer:  0
+isProposing true
+new root 0x155675792eb4d0d004ce1426b65453bb550d70b5a41f9808162764bda1c6de9b
+done 24
+challengeId:  0
+isChallenger:  false
+searching step:  1253
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=1253 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Load Model Finish
+writing /tmp/cannon/checkpoint/1253_golden.json len 7102428 with root 0x155675792eb4d0d004ce1426b65453bb550d70b5a41f9808162764bda1c6de9b
+Writing golden snapshot and exiting early without execution
+new root 0x155675792eb4d0d004ce1426b65453bb550d70b5a41f9808162764bda1c6de9b
+SocketError: other side closed
+    at Socket.onSocketEnd (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/undici@5.29.0/node_modules/undici/lib/client.js:1118:22)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'UND_ERR_SOCKET',
+  socket: {
+    localAddress: '127.0.0.1',
+    localPort: 33932,
+    remoteAddress: undefined,
+    remotePort: undefined,
+    remoteFamily: undefined,
+    timeout: undefined,
+    bytesWritten: 1845,
+    bytesRead: 4676
+  }
+}
+challengeId:  0
+isChallenger:  false
+searching step:  1253
+current layer:  0
+isProposing false
+new root 0x155675792eb4d0d004ce1426b65453bb550d70b5a41f9808162764bda1c6de9b
+done 25
+
+--- STEP 12 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  1253
+current layer:  0
+enter the next layer
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=-1 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+reach the final state, total step: 23016847, target: -1
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016847.json len 8335275 with root 0x52c6ac2671dd28c7120f3906b0b6b85983054325f157e0f64001054ef3b80420
+lastStep:  23016847
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_final.json len 8335275 with root 0x52c6ac2671dd28c7120f3906b0b6b85983054325f157e0f64001054ef3b80420
+0 0x155675792eb4d0d004ce1426b65453bb550d70b5a41f9808162764bda1c6de9b 0x52c6ac2671dd28c7120f3906b0b6b85983054325f157e0f64001054ef3b80420 23016847
+to next layer done 26
+challengeId:  0
+isChallenger:  false
+searching step:  11508423
+current layer:  1
+bad challenger state
+
+--- STEP 13 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  11508423
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=11508423 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_11508423.json len 7768539 with root 0x2718b3c8e7987eba514960af97248cd7763039d422433efadb4717cdb184dc5e
+new root 0x2718b3c8e7987eba514960af97248cd7763039d422433efadb4717cdb184dc5e
+done 27
+challengeId:  0
+isChallenger:  false
+searching step:  11508423
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=11508423 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon/checkpoint/checkpoint_1253_11508423.json len 7768539 with root 0x2718b3c8e7987eba514960af97248cd7763039d422433efadb4717cdb184dc5e
+new root 0x2718b3c8e7987eba514960af97248cd7763039d422433efadb4717cdb184dc5e
+done 28
+
+--- STEP 14 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  17262635
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=17262635 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_17262635.json len 8055707 with root 0xbc0cc28deb4abbd1dc8193d7d4e109b544c6fa044a71a1001daf9470a83cd5b9
+new root 0xbc0cc28deb4abbd1dc8193d7d4e109b544c6fa044a71a1001daf9470a83cd5b9
+done 29
+challengeId:  0
+isChallenger:  false
+searching step:  17262635
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=17262635 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon/checkpoint/checkpoint_1253_17262635.json len 8055707 with root 0xbc0cc28deb4abbd1dc8193d7d4e109b544c6fa044a71a1001daf9470a83cd5b9
+new root 0xbc0cc28deb4abbd1dc8193d7d4e109b544c6fa044a71a1001daf9470a83cd5b9
+done 30
+
+--- STEP 15 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  20139741
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=20139741 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_20139741.json len 8199227 with root 0xb5bf094fd807221163ac196c3a5523d13b5fdd251a9c0a65f45c92324374cb74
+new root 0xb5bf094fd807221163ac196c3a5523d13b5fdd251a9c0a65f45c92324374cb74
+done 31
+challengeId:  0
+isChallenger:  false
+searching step:  20139741
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=20139741 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon/checkpoint/checkpoint_1253_20139741.json len 8199227 with root 0xb5bf094fd807221163ac196c3a5523d13b5fdd251a9c0a65f45c92324374cb74
+new root 0xb5bf094fd807221163ac196c3a5523d13b5fdd251a9c0a65f45c92324374cb74
+done 32
+
+--- STEP 16 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  21578294
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=21578294 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_21578294.json len 8270991 with root 0x4a314329d09ef1f4b7d6d87aa15f69f3a3bd1e5aa0e6421cc7ae58304fcedb76
+new root 0x4a314329d09ef1f4b7d6d87aa15f69f3a3bd1e5aa0e6421cc7ae58304fcedb76
+done 33
+challengeId:  0
+isChallenger:  false
+searching step:  21578294
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=21578294 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon/checkpoint/checkpoint_1253_21578294.json len 8270991 with root 0x4a314329d09ef1f4b7d6d87aa15f69f3a3bd1e5aa0e6421cc7ae58304fcedb76
+new root 0x4a314329d09ef1f4b7d6d87aa15f69f3a3bd1e5aa0e6421cc7ae58304fcedb76
+done 34
+
+--- STEP 17 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  22297570
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22297570 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_22297570.json len 8306799 with root 0xa6db7ca4177253c0a2ecfc0bc4bdb6ce942e0fbd51da7ac1ff80fd0baf475901
+new root 0xa6db7ca4177253c0a2ecfc0bc4bdb6ce942e0fbd51da7ac1ff80fd0baf475901
+done 35
+challengeId:  0
+isChallenger:  false
+searching step:  22297570
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22297570 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon/checkpoint/checkpoint_1253_22297570.json len 8306799 with root 0xa6db7ca4177253c0a2ecfc0bc4bdb6ce942e0fbd51da7ac1ff80fd0baf475901
+new root 0xa6db7ca4177253c0a2ecfc0bc4bdb6ce942e0fbd51da7ac1ff80fd0baf475901
+done 36
+
+--- STEP 18 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  22657208
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22657208 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_22657208.json len 8324695 with root 0x82ae1c2e6c03892f691b84fdeb16fe7f298779067419b0aafb88fb67e88832ec
+new root 0x82ae1c2e6c03892f691b84fdeb16fe7f298779067419b0aafb88fb67e88832ec
+done 37
+challengeId:  0
+isChallenger:  false
+searching step:  22657208
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22657208 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon/checkpoint/checkpoint_1253_22657208.json len 8324695 with root 0x82ae1c2e6c03892f691b84fdeb16fe7f298779067419b0aafb88fb67e88832ec
+new root 0x82ae1c2e6c03892f691b84fdeb16fe7f298779067419b0aafb88fb67e88832ec
+done 38
+
+--- STEP 19 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  22837027
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22837027 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_22837027.json len 8333655 with root 0xa34cd2a226ce6ca31d850fb698d5494134b27bc05a89fe74825bc369727cd2d2
+new root 0xa34cd2a226ce6ca31d850fb698d5494134b27bc05a89fe74825bc369727cd2d2
+done 39
+challengeId:  0
+isChallenger:  false
+searching step:  22837027
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22837027 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+writing /tmp/cannon/checkpoint/checkpoint_1253_22837027.json len 8333655 with root 0xa34cd2a226ce6ca31d850fb698d5494134b27bc05a89fe74825bc369727cd2d2
+new root 0xa34cd2a226ce6ca31d850fb698d5494134b27bc05a89fe74825bc369727cd2d2
+done 40
+
+--- STEP 20 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  22926937
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22926937 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	writing /tmp/cannon_fault/checkpoint/checkpoint_1253_22926937.json len 8334895 with root 0x582d89e6976d71fd4395bd0adcb4276fc50cf59a2d1a923b47f599f7c5399e35
+new root 0x582d89e6976d71fd4395bd0adcb4276fc50cf59a2d1a923b47f599f7c5399e35
+done 41
+challengeId:  0
+isChallenger:  false
+searching step:  22926937
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22926937 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	writing /tmp/cannon/checkpoint/checkpoint_1253_22926937.json len 8334895 with root 0x582d89e6976d71fd4395bd0adcb4276fc50cf59a2d1a923b47f599f7c5399e35
+new root 0x582d89e6976d71fd4395bd0adcb4276fc50cf59a2d1a923b47f599f7c5399e35
+done 42
+
+--- STEP 21 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  22971892
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22971892 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	writing /tmp/cannon_fault/checkpoint/checkpoint_1253_22971892.json len 8335431 with root 0xc65891f3c570d31dbe2ce37c5f4863861f23b6414a205aaf0f425c59b2b5be9a
+new root 0xc65891f3c570d31dbe2ce37c5f4863861f23b6414a205aaf0f425c59b2b5be9a
+done 43
+challengeId:  0
+isChallenger:  false
+searching step:  22971892
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22971892 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	writing /tmp/cannon/checkpoint/checkpoint_1253_22971892.json len 8335431 with root 0xc65891f3c570d31dbe2ce37c5f4863861f23b6414a205aaf0f425c59b2b5be9a
+new root 0xc65891f3c570d31dbe2ce37c5f4863861f23b6414a205aaf0f425c59b2b5be9a
+done 44
+
+--- STEP 22 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  22994369
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22994369 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	writing /tmp/cannon_fault/checkpoint/checkpoint_1253_22994369.json len 8335663 with root 0xbc9a8e1e421fe04a15cbe4259981eb3ca145c879cf6657e2e44fca57fc41a2d7
+new root 0xbc9a8e1e421fe04a15cbe4259981eb3ca145c879cf6657e2e44fca57fc41a2d7
+done 45
+challengeId:  0
+isChallenger:  false
+searching step:  22994369
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=22994369 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	writing /tmp/cannon/checkpoint/checkpoint_1253_22994369.json len 8335663 with root 0xbc9a8e1e421fe04a15cbe4259981eb3ca145c879cf6657e2e44fca57fc41a2d7
+new root 0xbc9a8e1e421fe04a15cbe4259981eb3ca145c879cf6657e2e44fca57fc41a2d7
+done 46
+
+--- STEP 23 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23005608
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23005608 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23005608.json len 8335567 with root 0x13b318aaf2f8b3461025449da4c61ce25bcff42fbeca5f0c074485472621d493
+new root 0x13b318aaf2f8b3461025449da4c61ce25bcff42fbeca5f0c074485472621d493
+done 47
+challengeId:  0
+isChallenger:  false
+searching step:  23005608
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23005608 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	writing /tmp/cannon/checkpoint/checkpoint_1253_23005608.json len 8335567 with root 0x13b318aaf2f8b3461025449da4c61ce25bcff42fbeca5f0c074485472621d493
+new root 0x13b318aaf2f8b3461025449da4c61ce25bcff42fbeca5f0c074485472621d493
+done 48
+
+--- STEP 24 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23011227
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23011227 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23011227.json len 8335775 with root 0x8f8f2ab54ad01e9ffdfd46a90ac1bfec9aac6e8282406f3c49e091b186a68b92
+new root 0x8f8f2ab54ad01e9ffdfd46a90ac1bfec9aac6e8282406f3c49e091b186a68b92
+done 49
+challengeId:  0
+isChallenger:  false
+searching step:  23011227
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23011227 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	writing /tmp/cannon/checkpoint/checkpoint_1253_23011227.json len 8335775 with root 0x8f8f2ab54ad01e9ffdfd46a90ac1bfec9aac6e8282406f3c49e091b186a68b92
+new root 0x8f8f2ab54ad01e9ffdfd46a90ac1bfec9aac6e8282406f3c49e091b186a68b92
+done 50
+
+--- STEP 25 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23014037
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23014037 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23014037.json len 8335775 with root 0xeb36c52037a31a140f6c63eaf68e48bead73afb1c708d24045e84860f4929028
+new root 0xeb36c52037a31a140f6c63eaf68e48bead73afb1c708d24045e84860f4929028
+done 51
+challengeId:  0
+isChallenger:  false
+searching step:  23014037
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23014037 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	writing /tmp/cannon/checkpoint/checkpoint_1253_23014037.json len 8335775 with root 0xeb36c52037a31a140f6c63eaf68e48bead73afb1c708d24045e84860f4929028
+new root 0xeb36c52037a31a140f6c63eaf68e48bead73afb1c708d24045e84860f4929028
+done 52
+
+--- STEP 26 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23015442
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23015442 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23015442.json len 8335827 with root 0x1936ce43193a5d6fb5a7ff8816a49faa477b24c4d7ed37abcd9ee5efe7d9c537
+new root 0x1936ce43193a5d6fb5a7ff8816a49faa477b24c4d7ed37abcd9ee5efe7d9c537
+done 53
+challengeId:  0
+isChallenger:  false
+searching step:  23015442
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23015442 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	writing /tmp/cannon/checkpoint/checkpoint_1253_23015442.json len 8335827 with root 0x1936ce43193a5d6fb5a7ff8816a49faa477b24c4d7ed37abcd9ee5efe7d9c537
+new root 0x1936ce43193a5d6fb5a7ff8816a49faa477b24c4d7ed37abcd9ee5efe7d9c537
+done 54
+
+--- STEP 27 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016144
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016144 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016144.json len 8335827 with root 0xf9a1da3cb534e4bda5ecb4ec13923b17e39f7283536b169e97874d96c800cb22
+new root 0xf9a1da3cb534e4bda5ecb4ec13923b17e39f7283536b169e97874d96c800cb22
+done 55
+challengeId:  0
+isChallenger:  false
+searching step:  23016144
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016144 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016144.json len 8335827 with root 0xf9a1da3cb534e4bda5ecb4ec13923b17e39f7283536b169e97874d96c800cb22
+new root 0xf9a1da3cb534e4bda5ecb4ec13923b17e39f7283536b169e97874d96c800cb22
+done 56
+
+--- STEP 28 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016495
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016495 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016495.json len 8335827 with root 0x710f3dca3cba1668b6a79a25c72a3ff02b239c58a917c16d83d1377ab99fcbad
+new root 0x710f3dca3cba1668b6a79a25c72a3ff02b239c58a917c16d83d1377ab99fcbad
+done 57
+challengeId:  0
+isChallenger:  false
+searching step:  23016495
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016495 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016495.json len 8335827 with root 0x710f3dca3cba1668b6a79a25c72a3ff02b239c58a917c16d83d1377ab99fcbad
+new root 0x710f3dca3cba1668b6a79a25c72a3ff02b239c58a917c16d83d1377ab99fcbad
+done 58
+
+--- STEP 29 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016671
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016671 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016671.json len 8335699 with root 0x8368e28cbc6577158b984783c405d590ce97d5aeea821b5af5966d01b573919f
+new root 0x8368e28cbc6577158b984783c405d590ce97d5aeea821b5af5966d01b573919f
+done 59
+challengeId:  0
+isChallenger:  false
+searching step:  23016671
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016671 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016671.json len 8335699 with root 0x8368e28cbc6577158b984783c405d590ce97d5aeea821b5af5966d01b573919f
+new root 0x8368e28cbc6577158b984783c405d590ce97d5aeea821b5af5966d01b573919f
+done 60
+
+--- STEP 30 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016759
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016759 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016759.json len 8335699 with root 0x1f68763b73232afc01bf27a472a92edd698d5f38b1f14e1d5743306651cf77f2
+new root 0x1f68763b73232afc01bf27a472a92edd698d5f38b1f14e1d5743306651cf77f2
+done 61
+challengeId:  0
+isChallenger:  false
+searching step:  23016759
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016759 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016759.json len 8335699 with root 0x1f68763b73232afc01bf27a472a92edd698d5f38b1f14e1d5743306651cf77f2
+new root 0x1f68763b73232afc01bf27a472a92edd698d5f38b1f14e1d5743306651cf77f2
+done 62
+
+--- STEP 31 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016803
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016803 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016803.json len 8335699 with root 0x454b91e5374e89c4c7adcef0d0bf7cb529a559ecb1cad779ba0da78bf11f3824
+new root 0x454b91e5374e89c4c7adcef0d0bf7cb529a559ecb1cad779ba0da78bf11f3824
+done 63
+challengeId:  0
+isChallenger:  false
+searching step:  23016803
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016803 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016803.json len 8335699 with root 0x454b91e5374e89c4c7adcef0d0bf7cb529a559ecb1cad779ba0da78bf11f3824
+new root 0x454b91e5374e89c4c7adcef0d0bf7cb529a559ecb1cad779ba0da78bf11f3824
+done 64
+
+--- STEP 32 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016825
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016825 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016825.json len 8335707 with root 0x9f822749772dd35c695c8e848fba92e25f5c8b8b6c70557f9be21f1424d6e0bf
+new root 0x9f822749772dd35c695c8e848fba92e25f5c8b8b6c70557f9be21f1424d6e0bf
+done 65
+challengeId:  0
+isChallenger:  false
+searching step:  23016825
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016825 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016825.json len 8335707 with root 0x9f822749772dd35c695c8e848fba92e25f5c8b8b6c70557f9be21f1424d6e0bf
+new root 0x9f822749772dd35c695c8e848fba92e25f5c8b8b6c70557f9be21f1424d6e0bf
+done 66
+
+--- STEP 33 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016836
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016836 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016836.json len 8335731 with root 0xc86b5c16094cbfd44f888ae3ebb92c99112d9f30a252084f4227a153aedd3577
+new root 0xc86b5c16094cbfd44f888ae3ebb92c99112d9f30a252084f4227a153aedd3577
+done 67
+challengeId:  0
+isChallenger:  false
+searching step:  23016836
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016836 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016836.json len 8335731 with root 0xc86b5c16094cbfd44f888ae3ebb92c99112d9f30a252084f4227a153aedd3577
+new root 0xc86b5c16094cbfd44f888ae3ebb92c99112d9f30a252084f4227a153aedd3577
+done 68
+
+--- STEP 34 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016841
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016841 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016841.json len 8335731 with root 0xa8bb86ad82109a10a240abd34ffdfbf15af29598c1883bb5a975f1f8068c1746
+new root 0xa8bb86ad82109a10a240abd34ffdfbf15af29598c1883bb5a975f1f8068c1746
+done 69
+challengeId:  0
+isChallenger:  false
+searching step:  23016841
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016841 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016841.json len 8335731 with root 0xa8bb86ad82109a10a240abd34ffdfbf15af29598c1883bb5a975f1f8068c1746
+new root 0xa8bb86ad82109a10a240abd34ffdfbf15af29598c1883bb5a975f1f8068c1746
+done 70
+
+--- STEP 35 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016844
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016844 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016844.json len 8335731 with root 0x1b41d8f9c2ce65a47d930b7fbdfdc2cfd9c44438abd44614910e76e6ed367544
+new root 0x1b41d8f9c2ce65a47d930b7fbdfdc2cfd9c44438abd44614910e76e6ed367544
+done 71
+challengeId:  0
+isChallenger:  false
+searching step:  23016844
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016844 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016844.json len 8335731 with root 0x1b41d8f9c2ce65a47d930b7fbdfdc2cfd9c44438abd44614910e76e6ed367544
+new root 0x1b41d8f9c2ce65a47d930b7fbdfdc2cfd9c44438abd44614910e76e6ed367544
+done 72
+
+--- STEP 36 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016845
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016845 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016845.json len 8335731 with root 0xa9d698a964e5879f6b927d0a628292bd7a6df3aedc94336cad1c207730ad8be9
+new root 0xa9d698a964e5879f6b927d0a628292bd7a6df3aedc94336cad1c207730ad8be9
+done 73
+challengeId:  0
+isChallenger:  false
+searching step:  23016845
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016845 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016845.json len 8335731 with root 0xa9d698a964e5879f6b927d0a628292bd7a6df3aedc94336cad1c207730ad8be9
+new root 0xa9d698a964e5879f6b927d0a628292bd7a6df3aedc94336cad1c207730ad8be9
+done 74
+
+--- STEP 37 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016846
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016846 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon_fault/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon_fault/checkpoint/checkpoint_1253_23016846.json len 8335731 with root 0xa6dab53d329455b0137ed3839c02eb0644adc410253ac449ac503ce7243fff6c
+new root 0xa6dab53d329455b0137ed3839c02eb0644adc410253ac449ac503ce7243fff6c
+done 75
+challengeId:  0
+isChallenger:  false
+searching step:  23016846
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016846 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016846.json len 8335731 with root 0xa6dab53d329455b0137ed3839c02eb0644adc410253ac449ac503ce7243fff6c
+new root 0xa6dab53d329455b0137ed3839c02eb0644adc410253ac449ac503ce7243fff6c
+done 76
+
+--- STEP 38 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016846
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  23016846
+current layer:  1
+search is done
+
+--- STEP 39 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016846
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  23016846
+current layer:  1
+search is done
+
+--- STEP 40 / 40 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  23016846
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  23016846
+current layer:  1
+search is done
+
+----------------------------------------
+ASSERTING AS CHALLENGER (should fail)
+----------------------------------------
+
+searching step 23016846
+nodeID:  1253
+requested node a6dab53d329455b0137ed3839c02eb0644adc410253ac449ac503ce7243fff6c
+requested node 0e74c40df9f34e76091570f51747730c6bf9011b1ea8774a6a51334e884bf048
+requested node b7fb99a0c1da9f2490ecd159c4324c326a8cd7f57dba650f335961312685f9a0
+requested node 3da91779b428565a1c6157e87bde41b635323378d1fb3b339d3f64b4d348d5b8
+ProviderError: Error: VM Exception while processing transaction: reverted with reason string 'wrong asserted state for challenger'
+    at HttpProvider.request (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/hardhat@2.28.3_bufferutil@4.1.0_ts-node@10.9.2_@types+node@17.0.45_typescript@4.9.5__ty_f4d19edf84a436b79a32c8e114d414db/node_modules/hardhat/src/internal/core/providers/http.ts:116:21)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EthersProviderWrapper.send (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/@nomiclabs+hardhat-ethers@2.2.3_ethers@5.6.1_bufferutil@4.1.0_utf-8-validate@5.0.10__ha_8299c5e7e60ae27b267adf3eef26c3c4/node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)
+ProviderError: Error: VM Exception while processing transaction: reverted with reason string 'wrong asserted state for challenger'
+    at HttpProvider.request (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/hardhat@2.28.3_bufferutil@4.1.0_ts-node@10.9.2_@types+node@17.0.45_typescript@4.9.5__ty_f4d19edf84a436b79a32c8e114d414db/node_modules/hardhat/src/internal/core/providers/http.ts:116:21)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EthersProviderWrapper.send (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/@nomiclabs+hardhat-ethers@2.2.3_ethers@5.6.1_bufferutil@4.1.0_utf-8-validate@5.0.10__ha_8299c5e7e60ae27b267adf3eef26c3c4/node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)
+
+----------------------------------------
+ASSERTING AS DEFENDER (should pass)
+----------------------------------------
+
+searching step 23016846
+nodeID:  1253
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=23016847 --program=./mlgo/ml_mips/ml_mips.bin --modelName=LLAMA --data=/tmp/cannon/data/node_1253 --nodeID=1253 --model=/home/vid/Documents/DEAI/opml/mlgo/examples/llama/models/llama-7b-fp32.bin --prompt=How to combine AI and blockchain?
+Start Read Tensor Graph
+State Compute Tensor Graph
+
+
+=== [ final_after | FP32 | 32000:2:1 ] ===
+
+ 0 x 32000 ...	-12.798	-28.653	0.906	-6.167	-4.388	-7.113	-4.924	-6.597	-7.281	-6.032	-4.872	-5.725	
+ 1 x 32000 ...	-14.101	-22.343	-0.408	-6.054	-6.198	-6.053	-2.877	-7.656	-6.416	-7.144	-7.657	-2.973	
+reach the final state, total step: 23016847, target: 23016847
+writing /tmp/cannon/checkpoint/checkpoint_1253_23016847.json len 8335275 with root 0x52c6ac2671dd28c7120f3906b0b6b85983054325f157e0f64001054ef3b80420
+[ undefined, 'ChallengerLosesByDefault' ]

@@ -1,0 +1,732 @@
+
+----------------------------------------
+GENERATING INITIAL MEMORY STATE CHECKPOINT
+----------------------------------------
+
+
+
+=== [ model.fc2_bias | FP32 | 10:1:1 ] ===
+
+ 0 x 10 ...	-0.310	0.268	-0.081	-0.294	-0.047	0.673	-0.078	0.119	-0.199	-0.047	writing /tmp/cannon/checkpoint/0_golden.json len 6259818 with root 0x463ce64823e9e82a490d41718bc83584736f506a3d70e467e6f70734f9dcdeff
+Writing golden snapshot and exiting early without execution
+
+----------------------------------------
+DEPLOYING CONTRACTS
+----------------------------------------
+
+goldenRoot is 0x463ce64823e9e82a490d41718bc83584736f506a3d70e467e6f70734f9dcdeff
+deployed {
+  LayeredChallenge: '0x40918Ba7f132E0aCba2CE4de4c4baF9BD2D7D849',
+  MIPS: '0x8A93d247134d91e0de6f96547cB0204e5BE8e5D8',
+  MIPSMemory: '0x950973FF0e239740B4570bea36e92d61A4642799'
+}
+
+----------------------------------------
+STARTING CHALLENGE
+----------------------------------------
+
+0x40918Ba7f132E0aCba2CE4de4c4baF9BD2D7D849 0x8A93d247134d91e0de6f96547cB0204e5BE8e5D8 0x950973FF0e239740B4570bea36e92d61A4642799
+basedir:  /tmp/cannon_fault
+cdat:  0xdcec782c463ce64823e9e82a490d41718bc83584736f506a3d70e467e6f70734f9dcdeff00000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000002
+new challenge with id 0
+
+----------------------------------------
+BINARY SEARCH
+----------------------------------------
+
+
+--- STEP 1 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  3
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm  --target=3 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=3 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+
+
+=== [ model.fc2_bias | FP32 | 10:1:1 ] ===
+
+ 0 x 10 ...	-0.310	0.268	-0.081	-0.294	-0.047	0.673	-0.078	0.119	-0.199	-0.047	writing /tmp/cannon_fault/checkpoint/3_golden.json len 5984458 with root 0xcae7c937418d27cc29f9a574dd6302ea5702a918fabbf98b14c7e6de3573bf94
+Writing golden snapshot and exiting early without execution
+new root 0xcae7c937418d27cc29f9a574dd6302ea5702a918fabbf98b14c7e6de3573bf94
+done 135
+challengeId:  0
+isChallenger:  false
+searching step:  3
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=3 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=3 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+
+
+=== [ model.fc2_bias | FP32 | 10:1:1 ] ===
+
+ 0 x 10 ...	-0.310	0.268	-0.081	-0.294	-0.047	0.673	-0.078	0.119	-0.199	-0.047	writing /tmp/cannon/checkpoint/3_golden.json len 5984458 with root 0xcae7c937418d27cc29f9a574dd6302ea5702a918fabbf98b14c7e6de3573bf94
+Writing golden snapshot and exiting early without execution
+new root 0xcae7c937418d27cc29f9a574dd6302ea5702a918fabbf98b14c7e6de3573bf94
+done 136
+
+--- STEP 2 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  4
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm  --target=4 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=4 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+
+
+=== [ model.fc2_bias | FP32 | 10:1:1 ] ===
+
+ 0 x 10 ...	-0.310	0.268	-0.081	-0.294	-0.047	0.673	-0.078	0.119	-0.199	-0.047	writing /tmp/cannon_fault/checkpoint/4_golden.json len 5980934 with root 0x3eb04a51f62aa8318514379aa75921d8abd55cfc24c21fdeb434125896bb99d5
+Writing golden snapshot and exiting early without execution
+new root 0x3eb04a51f62aa8318514379aa75921d8abd55cfc24c21fdeb434125896bb99d5
+done 137
+challengeId:  0
+isChallenger:  false
+searching step:  4
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=4 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=4 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+
+
+=== [ model.fc2_bias | FP32 | 10:1:1 ] ===
+
+ 0 x 10 ...	-0.310	0.268	-0.081	-0.294	-0.047	0.673	-0.078	0.119	-0.199	-0.047	writing /tmp/cannon/checkpoint/4_golden.json len 5980934 with root 0x3eb04a51f62aa8318514379aa75921d8abd55cfc24c21fdeb434125896bb99d5
+Writing golden snapshot and exiting early without execution
+new root 0x3eb04a51f62aa8318514379aa75921d8abd55cfc24c21fdeb434125896bb99d5
+done 138
+
+--- STEP 3 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  5
+current layer:  0
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm  --target=5 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+
+
+=== [ model.fc2_bias | FP32 | 10:1:1 ] ===
+
+ 0 x 10 ...	-0.310	0.268	-0.081	-0.294	-0.047	0.673	-0.078	0.119	-0.199	-0.047	writing /tmp/cannon_fault/checkpoint/5_golden.json len 5980518 with root 0xce396823a5a4118b7ed46f2a0a161030c7145d7b2cbad5b961d985caca4aad83
+Writing golden snapshot and exiting early without execution
+new root 0xce396823a5a4118b7ed46f2a0a161030c7145d7b2cbad5b961d985caca4aad83
+done 139
+challengeId:  0
+isChallenger:  false
+searching step:  5
+current layer:  0
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm  --target=5 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+
+
+=== [ model.fc2_bias | FP32 | 10:1:1 ] ===
+
+ 0 x 10 ...	-0.310	0.268	-0.081	-0.294	-0.047	0.673	-0.078	0.119	-0.199	-0.047	writing /tmp/cannon/checkpoint/5_golden.json len 5980518 with root 0xce396823a5a4118b7ed46f2a0a161030c7145d7b2cbad5b961d985caca4aad83
+Writing golden snapshot and exiting early without execution
+new root 0xce396823a5a4118b7ed46f2a0a161030c7145d7b2cbad5b961d985caca4aad83
+done 140
+
+--- STEP 4 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  5
+current layer:  0
+enter the next layer
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=-1 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+Start Read Tensor Graph
+reach the final state, total step: 313575, target: -1
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_313575.json len 6077286 with root 0x636cf7ebcdc8416f9457d3b05db4b1c3e595f9447adb0f94b00b8f394a032905
+lastStep:  313575
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_final.json len 6077286 with root 0x636cf7ebcdc8416f9457d3b05db4b1c3e595f9447adb0f94b00b8f394a032905
+0 0xce396823a5a4118b7ed46f2a0a161030c7145d7b2cbad5b961d985caca4aad83 0x636cf7ebcdc8416f9457d3b05db4b1c3e595f9447adb0f94b00b8f394a032905 313575
+to next layer done 141
+challengeId:  0
+isChallenger:  false
+searching step:  156787
+current layer:  1
+bad challenger state
+
+--- STEP 5 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  156787
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=156787 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_156787.json len 6023366 with root 0x69779b37618333059c2e4d903dbd1640b6b8bb2131b7c49dce22921f2c95fa7f
+new root 0x69779b37618333059c2e4d903dbd1640b6b8bb2131b7c49dce22921f2c95fa7f
+done 142
+challengeId:  0
+isChallenger:  false
+searching step:  156787
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=156787 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_156787.json len 6024166 with root 0x13d20a104330400544839b8c8522b737be25136492cc12ae6396265960933dc3
+new root 0x13d20a104330400544839b8c8522b737be25136492cc12ae6396265960933dc3
+done 143
+
+--- STEP 6 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  78393
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=78393 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_78393.json len 6004625 with root 0x800b5f1b5e3d9a79db0d879c8a5cfeec6a32aa27b342fa9cf19056104b9ead31
+new root 0x800b5f1b5e3d9a79db0d879c8a5cfeec6a32aa27b342fa9cf19056104b9ead31
+done 144
+challengeId:  0
+isChallenger:  false
+searching step:  78393
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=78393 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_78393.json len 6004625 with root 0x800b5f1b5e3d9a79db0d879c8a5cfeec6a32aa27b342fa9cf19056104b9ead31
+new root 0x800b5f1b5e3d9a79db0d879c8a5cfeec6a32aa27b342fa9cf19056104b9ead31
+done 145
+
+--- STEP 7 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  117590
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=117590 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_117590.json len 6013562 with root 0xc693ef41f1f0f683710aab4332f789e7aa8469f029e4cb74bf0c8828a7189062
+new root 0xc693ef41f1f0f683710aab4332f789e7aa8469f029e4cb74bf0c8828a7189062
+done 146
+challengeId:  0
+isChallenger:  false
+searching step:  117590
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=117590 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_117590.json len 6011738 with root 0x3c7ede374f574432a08ee16dca05588f13298e172d8306d013b23a7afcab8b9d
+new root 0x3c7ede374f574432a08ee16dca05588f13298e172d8306d013b23a7afcab8b9d
+done 147
+
+--- STEP 8 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  97991
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=97991 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_97991.json len 6008821 with root 0x4a441f21789c96a81f8491f87180d048f6bb192ae98642b37dbcb95e959af6a6
+new root 0x4a441f21789c96a81f8491f87180d048f6bb192ae98642b37dbcb95e959af6a6
+done 148
+challengeId:  0
+isChallenger:  false
+searching step:  97991
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=97991 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_97991.json len 6008821 with root 0x4a441f21789c96a81f8491f87180d048f6bb192ae98642b37dbcb95e959af6a6
+new root 0x4a441f21789c96a81f8491f87180d048f6bb192ae98642b37dbcb95e959af6a6
+done 149
+
+--- STEP 9 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  107790
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=107790 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_107790.json len 6011394 with root 0xfcb9ad86dbb17a77cc009947d310975c93288bf04f37331dfe035679389e35c4
+new root 0xfcb9ad86dbb17a77cc009947d310975c93288bf04f37331dfe035679389e35c4
+done 150
+challengeId:  0
+isChallenger:  false
+searching step:  107790
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=107790 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_107790.json len 6010826 with root 0x5803b4f36e7214968b5ac4c65d2982f652d4583654acf1e3e46f87cb4fa1fda7
+new root 0x5803b4f36e7214968b5ac4c65d2982f652d4583654acf1e3e46f87cb4fa1fda7
+done 151
+
+--- STEP 10 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  102890
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=102890 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_102890.json len 6010570 with root 0x2c6a60d1a58d2936908224519d7ec78d789bdd6cafdd667743d408cd94c22a35
+new root 0x2c6a60d1a58d2936908224519d7ec78d789bdd6cafdd667743d408cd94c22a35
+done 152
+challengeId:  0
+isChallenger:  false
+searching step:  102890
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=102890 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_102890.json len 6009798 with root 0xbb1600ddd96922c5c44470c37d2a715c0e88e351a0a305d4bdaf22fb0c98c0a1
+new root 0xbb1600ddd96922c5c44470c37d2a715c0e88e351a0a305d4bdaf22fb0c98c0a1
+done 153
+
+--- STEP 11 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100440
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100440 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100440.json len 6009318 with root 0x364b7113851c2ede63fa7e4f6b90b136e4e9f1fd1596593a259e4563b12083ca
+new root 0x364b7113851c2ede63fa7e4f6b90b136e4e9f1fd1596593a259e4563b12083ca
+done 154
+challengeId:  0
+isChallenger:  false
+searching step:  100440
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100440 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100440.json len 6009130 with root 0xc159d55990e0cff9150e0756956250157c0a85449868458ffcd322761f485039
+new root 0xc159d55990e0cff9150e0756956250157c0a85449868458ffcd322761f485039
+done 155
+
+--- STEP 12 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99215
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=99215 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_99215.json len 6008849 with root 0x9c16ec2622af9f6bd6e1507fbe357b05e1d9c53cf70f214835f9f48667e948b6
+new root 0x9c16ec2622af9f6bd6e1507fbe357b05e1d9c53cf70f214835f9f48667e948b6
+done 156
+challengeId:  0
+isChallenger:  false
+searching step:  99215
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=99215 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_99215.json len 6008849 with root 0x9c16ec2622af9f6bd6e1507fbe357b05e1d9c53cf70f214835f9f48667e948b6
+new root 0x9c16ec2622af9f6bd6e1507fbe357b05e1d9c53cf70f214835f9f48667e948b6
+done 157
+
+--- STEP 13 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99827
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=99827 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_99827.json len 6008917 with root 0x81abe12294456a1b609cb538a1c5c76d017be761df71aaf1c800665ff3335eb4
+new root 0x81abe12294456a1b609cb538a1c5c76d017be761df71aaf1c800665ff3335eb4
+done 158
+challengeId:  0
+isChallenger:  false
+searching step:  99827
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=99827 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_99827.json len 6008917 with root 0x81abe12294456a1b609cb538a1c5c76d017be761df71aaf1c800665ff3335eb4
+new root 0x81abe12294456a1b609cb538a1c5c76d017be761df71aaf1c800665ff3335eb4
+done 159
+
+--- STEP 14 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100133
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100133 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100133.json len 6008958 with root 0xeda1b39b7d2fd4b5f0c604761dc90ee46694a7f8dd8da81959c3b83e57fc0eb2
+new root 0xeda1b39b7d2fd4b5f0c604761dc90ee46694a7f8dd8da81959c3b83e57fc0eb2
+done 160
+challengeId:  0
+isChallenger:  false
+searching step:  100133
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100133 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100133.json len 6008942 with root 0x736e9c28e1427d170c62de7cbbfeecf08be652fc59c4ec8d285afb21dac8b0f2
+new root 0x736e9c28e1427d170c62de7cbbfeecf08be652fc59c4ec8d285afb21dac8b0f2
+done 161
+
+--- STEP 15 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99980
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=99980 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_99980.json len 6008933 with root 0x8dc888dc9ab4697188b9880d928ee34405fc412c1466f041338b04b4489284bd
+new root 0x8dc888dc9ab4697188b9880d928ee34405fc412c1466f041338b04b4489284bd
+done 162
+challengeId:  0
+isChallenger:  false
+searching step:  99980
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=99980 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_99980.json len 6008933 with root 0x8dc888dc9ab4697188b9880d928ee34405fc412c1466f041338b04b4489284bd
+new root 0x8dc888dc9ab4697188b9880d928ee34405fc412c1466f041338b04b4489284bd
+done 163
+
+--- STEP 16 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100056
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100056 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100056.json len 6008942 with root 0xdea1660b0f300c1b4b3bbc0a28f7e2aca066a419867fda9b4a6e1422966cdae0
+new root 0xdea1660b0f300c1b4b3bbc0a28f7e2aca066a419867fda9b4a6e1422966cdae0
+done 164
+challengeId:  0
+isChallenger:  false
+searching step:  100056
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100056 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100056.json len 6008942 with root 0x5e2b89c11fa8df375b9eaec5ff46d733a4b402812bf416c625090d8d07d2db66
+new root 0x5e2b89c11fa8df375b9eaec5ff46d733a4b402812bf416c625090d8d07d2db66
+done 165
+
+--- STEP 17 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100018
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100018 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100018.json len 6008934 with root 0xa78195f0a79013d8bbee0dbef25ec45f878627eb05c4e4c54825785729fd1ff6
+new root 0xa78195f0a79013d8bbee0dbef25ec45f878627eb05c4e4c54825785729fd1ff6
+done 166
+challengeId:  0
+isChallenger:  false
+searching step:  100018
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100018 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100018.json len 6008934 with root 0xcab55188cbf05723ccf42a0674df081e1b596c6cca09e69c8a49f1d1cb5fae9b
+new root 0xcab55188cbf05723ccf42a0674df081e1b596c6cca09e69c8a49f1d1cb5fae9b
+done 167
+
+--- STEP 18 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=99999 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_99999.json len 6008933 with root 0x14768dce556bc083a986e2bfb00024f39e52bd40ac2616b3c05d88958a51a92e
+new root 0x14768dce556bc083a986e2bfb00024f39e52bd40ac2616b3c05d88958a51a92e
+done 168
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=99999 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_99999.json len 6008933 with root 0x14768dce556bc083a986e2bfb00024f39e52bd40ac2616b3c05d88958a51a92e
+new root 0x14768dce556bc083a986e2bfb00024f39e52bd40ac2616b3c05d88958a51a92e
+done 169
+
+--- STEP 19 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100008
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100008 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100008.json len 6008934 with root 0x2c38a85a03d14ed46293d21d2cbb00c9ffe0c86e1ec25e7c4497da2746d64c63
+new root 0x2c38a85a03d14ed46293d21d2cbb00c9ffe0c86e1ec25e7c4497da2746d64c63
+done 170
+challengeId:  0
+isChallenger:  false
+searching step:  100008
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100008 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100008.json len 6008934 with root 0x9b4e2eaa8979c6ff3a6bcf6b9d7cd22e0cce6aedba35bbd199a72c139449ef07
+new root 0x9b4e2eaa8979c6ff3a6bcf6b9d7cd22e0cce6aedba35bbd199a72c139449ef07
+done 171
+
+--- STEP 20 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100003
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100003 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100003.json len 6008934 with root 0x863004e3f0e6552a729dbbffa49290936db529688b5438f2a1771e0568047b72
+new root 0x863004e3f0e6552a729dbbffa49290936db529688b5438f2a1771e0568047b72
+done 172
+challengeId:  0
+isChallenger:  false
+searching step:  100003
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100003 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100003.json len 6008934 with root 0x16b4fca50a364fcb4b58bde8d88975872112de1c72f87684ce9400e9994206f7
+new root 0x16b4fca50a364fcb4b58bde8d88975872112de1c72f87684ce9400e9994206f7
+done 173
+
+--- STEP 21 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100001
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100001 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100001.json len 6008934 with root 0x1991055e15737a9a2f74cac2eb622a6eeb5325df43a4baaebb7cf4472fa62794
+new root 0x1991055e15737a9a2f74cac2eb622a6eeb5325df43a4baaebb7cf4472fa62794
+done 174
+challengeId:  0
+isChallenger:  false
+searching step:  100001
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100001 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100001.json len 6008934 with root 0xcd4cf8350d944a69f6ec2773ac25b6ae16a8e48c81608c1c6a6a8da19ada6903
+new root 0xcd4cf8350d944a69f6ec2773ac25b6ae16a8e48c81608c1c6a6a8da19ada6903
+done 175
+
+--- STEP 22 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  100000
+current layer:  1
+isProposing true
+running program:  ./mlgo/ml_mips/ml_mips.bin
+REGFAULT=100000 mlvm/mlvm --lastLayer --target=100000 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+regfault at step 100000
+writing /tmp/cannon_fault/checkpoint/checkpoint_5_100000.json len 6008934 with root 0xdb46e3d0704dce9d733ae05f8ef17263855ef32b707d79f2fc0cc7bedfe0dbd1
+new root 0xdb46e3d0704dce9d733ae05f8ef17263855ef32b707d79f2fc0cc7bedfe0dbd1
+done 176
+challengeId:  0
+isChallenger:  false
+searching step:  100000
+current layer:  1
+isProposing false
+running program:  ./mlgo/ml_mips/ml_mips.bin
+mlvm/mlvm --lastLayer --target=100000 --program=./mlgo/ml_mips/ml_mips.bin --modelName=MNIST --data=./mlgo/examples/mnist/models/mnist/input_7 --nodeID=5 --model=./mlgo/examples/mnist/models/mnist/ggml-model-small-f32.bin
+writing /tmp/cannon/checkpoint/checkpoint_5_100000.json len 6008934 with root 0xbaae9de34fbef5d2d136888da103d7f5410fc4e595a10abbdfdc22b6503cf0e6
+new root 0xbaae9de34fbef5d2d136888da103d7f5410fc4e595a10abbdfdc22b6503cf0e6
+done 177
+
+--- STEP 23 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+--- STEP 24 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+--- STEP 25 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+--- STEP 26 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+--- STEP 27 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+--- STEP 28 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+--- STEP 29 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+--- STEP 30 / 30 ---
+
+challengeId:  0
+isChallenger:  true
+searching step:  99999
+current layer:  1
+search is done
+challengeId:  0
+isChallenger:  false
+searching step:  99999
+current layer:  1
+search is done
+
+----------------------------------------
+ASSERTING AS CHALLENGER (should fail)
+----------------------------------------
+
+searching step 99999
+nodeID:  5
+requested node 14768dce556bc083a986e2bfb00024f39e52bd40ac2616b3c05d88958a51a92e
+requested node c615d20e7f8886eae4460df643eb15ad808a5f5f5cbfed00b584f6cc7048b332
+requested node 18872b2468d90101ba5224a3648b521bf63b6da21df3a4ce16374e0cbeecfaca
+requested node 8a715fa173417aaf94d89320e1384b0a9c044f7c80ae53e431c3acd3a9a19f6d
+requested node a108d6590b102556158b2e99db21903d72c6e7dbf1944a6b3d2cad03013611a7
+requested node 4909043e746054059094e062dffc18e97b7401f635d9c6a9e730e18441d911d5
+requested node 47c05302059f6e1ab9379123048710482e3710e1a4e0c6c61d96990ac3ff3854
+requested node d957a408ad49bf914f45293b0281b7157070cd44ed943271ba7b121b3ae03c8b
+requested node f2b17f4be88847873e7eb58cb7a7fbd539fa83aaa6159b1f41f46dc31f8668d3
+requested node 28f97e25ff670ee9cf3dc35dc6a8a0a99e77b395dbe03a5be0cd5c1bac94152c
+requested node 4ce16d60d12b46573e619313db82df705152fd52769d7a0ad7c3cba268ffbdfc
+requested node 180d9b98918841e12b3de5b585c40515ef4febc1c5de7fa899fe06d4aa5552b7
+ProviderError: Error: VM Exception while processing transaction: reverted with reason string 'wrong asserted state for challenger'
+    at HttpProvider.request (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/hardhat@2.28.3_bufferutil@4.1.0_ts-node@10.9.2_@types+node@17.0.45_typescript@4.9.5__ty_f4d19edf84a436b79a32c8e114d414db/node_modules/hardhat/src/internal/core/providers/http.ts:116:21)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EthersProviderWrapper.send (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/@nomiclabs+hardhat-ethers@2.2.3_ethers@5.6.1_bufferutil@4.1.0_utf-8-validate@5.0.10__ha_8299c5e7e60ae27b267adf3eef26c3c4/node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)
+ProviderError: Error: VM Exception while processing transaction: reverted with reason string 'wrong asserted state for challenger'
+    at HttpProvider.request (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/hardhat@2.28.3_bufferutil@4.1.0_ts-node@10.9.2_@types+node@17.0.45_typescript@4.9.5__ty_f4d19edf84a436b79a32c8e114d414db/node_modules/hardhat/src/internal/core/providers/http.ts:116:21)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EthersProviderWrapper.send (/home/vid/Documents/DEAI/opml/node_modules/.pnpm/@nomiclabs+hardhat-ethers@2.2.3_ethers@5.6.1_bufferutil@4.1.0_utf-8-validate@5.0.10__ha_8299c5e7e60ae27b267adf3eef26c3c4/node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)
+
+----------------------------------------
+ASSERTING AS DEFENDER (should pass)
+----------------------------------------
+
+searching step 99999
+nodeID:  5
+[
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  'ChallengerLoses'
+]

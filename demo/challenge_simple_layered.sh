@@ -120,7 +120,8 @@ for i in {1..30}; do
     echo "--- STEP $i / 30 ---"
     echo ""
     # bug: https://github.com/ethereum-optimism/cannon/issues/99
-    BASEDIR=/tmp/cannon_fault CHALLENGER=1 REGFAULT=100000 npx hardhat run scripts_layered/respond.js --network localhost || BASEDIR=/tmp/cannon_fault CHALLENGER=1 REGFAULT=100000 npx hardhat run scripts_layered/respond.js --network localhost
+    BASEDIR=/tmp/cannon_fault CHALLENGER=1 npx hardhat run scripts_layered/respond.js --network localhost || BASEDIR=/tmp/cannon_fault CHALLENGER=1 npx hardhat run scripts_layered/respond.js --network localhost
+    # BASEDIR=/tmp/cannon_fault CHALLENGER=1 REGFAULT=100000 npx hardhat run scripts_layered/respond.js --network localhost || BASEDIR=/tmp/cannon_fault CHALLENGER=1 REGFAULT=100000 npx hardhat run scripts_layered/respond.js --network localhost
     BASEDIR=/tmp/cannon CHALLENGER=0 npx hardhat run scripts_layered/respond.js --network localhost || BASEDIR=/tmp/cannon CHALLENGER=0 npx hardhat run scripts_layered/respond.js --network localhost
 done
 
